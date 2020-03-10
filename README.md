@@ -26,8 +26,20 @@ npm install react-router-dom
 ````
 5.安装redux-persist
 
-6.
+6.安装react-load-script【非必须】
+````
+npm install react-load-script
+````
+7.安装bootstrap【非必须】
 
+````
+npm install bootstrap
+````
+8.安装 react-aplayer【非必须】
+
+```
+npm install react-aplayer --save
+```
 
 
 # 爱情表白纪念册

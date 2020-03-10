@@ -114,7 +114,7 @@ class SpecialEffects extends React.Component{
     }
 
     render(){
-        return <div >
+        return <div className="container-special">
             <audio src="http://huaidanwangluo.com/gerenwenjian/yinghuacao.mp3"
                    autoPlay="true"
                    loop="true">

@@ -1,6 +1,11 @@
 body {
-    overflow: hidden;
+    background-color: #f4f4f4;
+    font-family: '微软雅黑', '宋体', sans-serif;
     margin: 0;
+}
+
+.container-special{
+    overflow: hidden;
 }
 
 h1 {
@@ -20,14 +25,6 @@ h1 {
     h1 {
         font-size: 60px;
     }
-}
-
-
-body {
-    background-color: #f4f4f4;
-    margin: 0;
-    font-family: '微软雅黑', '宋体', sans-serif;
-    overflow: hidden;
 }
 
 #bg {
