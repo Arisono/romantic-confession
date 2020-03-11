@@ -115,10 +115,7 @@ class SpecialEffects extends React.Component{
 
     render(){
         return <div className="container-special">
-            <audio src="http://huaidanwangluo.com/gerenwenjian/yinghuacao.mp3"
-                   autoPlay="true"
-                   loop="true">
-            </audio>
+
             <img id="bg" src={bg}/>
             <canvas width="1422" height="642"></canvas>
             <div  className="mb-box">

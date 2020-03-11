@@ -97,9 +97,7 @@ class LoveTimes extends React.Component {
                         autoPlay="true"
                         loop="true">
                     </audio>*/}
-                    <a href="/2020-02-14.html"> <span className="color-red">情人节告白书</span></a>
-                    <a href="/2020-03-07.html"> <span
-                        className="color-red">女神节快乐！</span></a>我们已经相爱了:<CountTimeDown/>
+
                     <div className="main-timeline">
                         {this.state.persons.map((item, index) => {
                             return <div className="timeline">
@@ -122,13 +120,7 @@ class LoveTimes extends React.Component {
                          data-fixed="true" data-order="random" data-autoplay="true"/>
                 </div>
                 <div className="col-md-12">
-                    {/*音乐播放器*/}
-                    <ReactAplayer
-                        {...props}
-                        onInit={this.onInit}
-                        onPlay={this.onPlay}
-                        onPause={this.onPause}
-                    />
+
 
                 </div>
             </div>

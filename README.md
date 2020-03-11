@@ -40,7 +40,11 @@ npm install bootstrap
 ```
 npm install react-aplayer --save
 ```
+9.安装 jquery
 
+````
+npm install jquery --save
+````
 
 # 爱情表白纪念册
 

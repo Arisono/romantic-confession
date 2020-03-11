@@ -5,15 +5,17 @@ import SpecialEffects from "./components/confession/SpecialEffects";
 import CountTimeDown from "./components/common/CountTimeDown";
 import RomanticFlowers from "./components/confession/RomanticFlowers";
 import LoveTimes from "./components/confession/LoveTimes";
+import HeaderPage from "./components/home/HeaderPage";
+import HomePage from "./components/home/HomePage";
 
 export  default ()=>(
     <Router>
         <Switch>
             {/*render={() => <Redirect to="/special-effects" push />}*/}
-            <Route exact path="/"  component={LoveTimes}/>
-            <Route path="/app" component={App} />
-            <Route path="/2020-02-14.html" component={SpecialEffects}/>
-            <Route path="/times" component={LoveTimes}/>
+            <Route exact path="/"  component={HomePage}/>
+            <Route path="/love" component={HomePage} />
+
+
 
         </Switch>
     </Router>
